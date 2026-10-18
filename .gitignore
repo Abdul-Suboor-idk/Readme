@@ -1,0 +1,13 @@
+# Compiled program and object files
+finance_tracker.exe
+*.o
+*.obj
+*.exe
+
+# Local financial data: do not publish personal records
+transactions.txt
+
+# IDE/editor settings
+.vscode/
+.vs/
+.idea/
