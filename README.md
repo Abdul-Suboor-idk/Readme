@@ -33,8 +33,8 @@ Total spent:  2670.00
 Spending by category:
   Food: 1300.00
   Entertainment: 700.00
-  Education: 300.00
   Transport: 370.00
+  Education: 300.00
 
 Highest category: Food (1300.00)
 ```
