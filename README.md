@@ -6,40 +6,60 @@ A collection of small programming exercises and practical tools I'm building whi
 
 ### 🐍 Python Expense Summary
 
-A command-line utility that reads an expenses CSV file and displays:
+A command-line utility that reads a CSV file and reports:
 - Total spending
+- Number of transactions
 - Spending grouped by category
 - The highest-spending category
 
 **Requirements:** Python 3.9+; no third-party packages.
 
-Run it with a CSV file:
+**Run the sample:**
 
 ```bash
 python python/expense_summary.py sample_expenses.csv
 ```
 
-Expected CSV columns:
+Use the included [sample_expenses.csv](sample_expenses.csv) to try it. The amounts are example data only.
 
-```csv
-date,category,description,amount
-2026-10-01,Transport,Bus fare,150
-2026-10-02,Food,Lunch,450
-2026-10-03,Transport,Ride,250
+**Expected output (summary):**
+
+```text
+EXPENSE SUMMARY
+==================================
+Transactions: 6
+Total spent:  2670.00
+
+Spending by category:
+  Food: 1300.00
+  Entertainment: 700.00
+  Education: 300.00
+  Transport: 370.00
+
+Highest category: Food (1300.00)
 ```
 
-Amounts must be numeric and non-negative. The tool only reads the file; it does not modify your data.
+The program validates the CSV columns and amount values, and displays a helpful error if the file is missing or the data is invalid.
 
 ### 💰 C++ Personal Finance Tracker
 
-My main C++ project has its own repository:
-[C++ Personal Finance Tracker](https://github.com/Abdul-Suboor-idk/cpp-personal-finance-tracker.)
+A C++17 console application for recording income and expenses, reviewing summaries, filtering transactions, and generating monthly reports.
 
-## Repository goals
+[View the C++ project and build instructions](https://github.com/Abdul-Suboor-idk/cpp-personal-finance-tracker.)
 
-- Practice programming fundamentals and problem-solving
-- Build small tools that solve real tasks
-- Keep examples readable and documented
-- Add tests and improve error handling as I learn
+## Skills I'm practicing
 
-More practice projects will be added as they're ready.
+- C++ and Python
+- Functions, loops, conditionals, and data structures
+- File input/output and CSV processing
+- Input validation and error handling
+- Git and GitHub documentation
+
+## Learning goals
+
+- Add tests and improve project structure
+- Build more Python automation tools
+- Develop a small web project
+- Explore AI APIs when I have a suitable project and setup
+
+This is a learning repository. Feedback and suggestions are welcome.
